@@ -1,15 +1,14 @@
 package br.com.etlgis;
 
-import org.geotools.data.FileDataStore;
-import org.geotools.data.FileDataStoreFinder;
-import org.geotools.data.simple.SimpleFeatureCollection;
-import org.geotools.data.simple.SimpleFeatureIterator;
-import org.geotools.data.simple.SimpleFeatureSource;
+import org.geotools.api.data.FileDataStore;
+import org.geotools.api.data.FileDataStoreFinder;
+import org.geotools.api.data.simple.SimpleFeatureCollection;
+import org.geotools.api.data.simple.SimpleFeatureIterator;
+import org.geotools.api.data.simple.SimpleFeatureSource;
 import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.util.GeometryFixer;
 import org.locationtech.jts.io.WKBWriter;
-import org.opengis.feature.simple.SimpleFeature;
-
+import org.geotools.api.feature.simple.SimpleFeature;
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
