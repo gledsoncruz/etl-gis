@@ -9,7 +9,6 @@ import org.locationtech.jts.geom.Geometry;
 import org.locationtech.jts.geom.util.GeometryFixer;
 import org.locationtech.jts.io.WKBWriter;
 import org.geotools.api.feature.simple.SimpleFeature;
-
 import java.io.IOException;
 import java.io.InputStream;
 import java.io.OutputStream;
